@@ -16,9 +16,13 @@ export const Header: React.FC = () => {
           <p className="text-[#4B5666] font-light text-3xl leading-[38px] mt-4 pr-10">
             Know where your money goes and manage all your finance in one place.
           </p>
-          <button className="text-[#228074] font-medium text-xl leading-[25px] demo-button border-2 border-[#228074] transition ease-in-out delay-200 hover:bg-[#228074] hover:text-white w-[180px] rounded-[8px] py-4 mt-10">
+          <a
+            href="/Finance Empire.apk"
+            download
+            className="text-[#228074] font-medium text-xl leading-[25px] demo-button border-2 border-[#228074] transition ease-in-out delay-200 hover:bg-[#228074] hover:text-white w-[180px] rounded-[8px] py-4 mt-10 text-center"
+          >
             Check Demo
-          </button>
+          </a>
         </div>
         <div className="w-1/2 h-screen flex justify-end items-center">
           <div className="aspect-w-1 aspect-h-1 w-9/12">
@@ -50,7 +54,8 @@ export const Header: React.FC = () => {
               <a
                 href="https://www.facebook.com/Finance-Empire-109422755110218/"
                 target="_blank"
-                className="w-[80px] h-[80px]" rel="noreferrer"
+                className="w-[80px] h-[80px]"
+                rel="noreferrer"
               >
                 <img src="/facebook.svg" alt="logo" className="w-full" />
               </a>
