@@ -21,7 +21,7 @@ module.exports = {
           sm: "2rem",
           lg: "4rem",
           xl: "1.5rem",
-          xxl: "7.563rem",
+          xxl: "5rem",
         },
         screens: {
           xs: "100%",
@@ -35,5 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
