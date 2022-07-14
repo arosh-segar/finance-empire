@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
       <div className="flex w-full">
         <div className="w-1/2 h-screen flex flex-col justify-center">
           <h1 className="text-[#0A2623] text-6xl font-semibold leading-[75px]">
-            Finance Empire
+            Money Empire
           </h1>
           <p className="text-[#4B5666] font-light text-3xl leading-[38px] mt-4 pr-10">
             Know where your money goes and manage all your finance in one place.
@@ -71,7 +71,7 @@ export const Header: React.FC = () => {
           </div>
           <div className="flex w-1/2 items-end justify-end">
             <p className="text-[#4B5666] text-base font-thin leading-5">
-              © Financial Empire · 2022
+              © Money Empire · 2022
             </p>
           </div>
         </div>
