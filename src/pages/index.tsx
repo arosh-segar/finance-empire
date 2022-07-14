@@ -6,13 +6,13 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Finance Empire</title>
-        <meta name="title" content="Finance Empire" />
+        <title>Money Empire</title>
+        <meta name="title" content="Money Empire" />
         <meta
           name="description"
           content="An application to efficiently manage your expenses"
         />
-        <meta property="og:title" content="Finance Empire" />
+        <meta property="og:title" content="Money Empire" />
         <meta
           property="og:description"
           content="An application to efficiently manage your expenses"
